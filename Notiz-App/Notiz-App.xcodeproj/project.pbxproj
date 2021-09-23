@@ -15,6 +15,8 @@
 		ED606E9A26FC555800821A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED606E9826FC555800821A5D /* LaunchScreen.storyboard */; };
 		ED606EA526FC555900821A5D /* Notiz_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED606EA426FC555900821A5D /* Notiz_AppTests.swift */; };
 		ED606EB026FC555900821A5D /* Notiz_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED606EAF26FC555900821A5D /* Notiz_AppUITests.swift */; };
+		ED606EBE26FC649300821A5D /* Notiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED606EBD26FC649300821A5D /* Notiz.swift */; };
+		ED606EC026FC64E400821A5D /* Notiz-App in Resources */ = {isa = PBXBuildFile; fileRef = ED606EBF26FC64E400821A5D /* Notiz-App */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ED606EAB26FC555900821A5D /* Notiz-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notiz-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED606EAF26FC555900821A5D /* Notiz_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notiz_AppUITests.swift; sourceTree = "<group>"; };
 		ED606EB126FC555900821A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED606EBD26FC649300821A5D /* Notiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notiz.swift; sourceTree = "<group>"; };
+		ED606EBF26FC64E400821A5D /* Notiz-App */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Notiz-App"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 		ED606E8C26FC555700821A5D /* Notiz-App */ = {
 			isa = PBXGroup;
 			children = (
+				ED606EBF26FC64E400821A5D /* Notiz-App */,
 				ED606E8D26FC555700821A5D /* AppDelegate.swift */,
 				ED606E8F26FC555700821A5D /* SceneDelegate.swift */,
+				ED606EBD26FC649300821A5D /* Notiz.swift */,
 				ED606E9126FC555700821A5D /* ViewController.swift */,
 				ED606E9326FC555700821A5D /* Main.storyboard */,
 				ED606E9626FC555800821A5D /* Assets.xcassets */,
@@ -234,6 +240,7 @@
 				ED606E9A26FC555800821A5D /* LaunchScreen.storyboard in Resources */,
 				ED606E9726FC555800821A5D /* Assets.xcassets in Resources */,
 				ED606E9526FC555700821A5D /* Main.storyboard in Resources */,
+				ED606EC026FC64E400821A5D /* Notiz-App in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED606E9226FC555700821A5D /* ViewController.swift in Sources */,
+				ED606EBE26FC649300821A5D /* Notiz.swift in Sources */,
 				ED606E8E26FC555700821A5D /* AppDelegate.swift in Sources */,
 				ED606E9026FC555700821A5D /* SceneDelegate.swift in Sources */,
 			);
