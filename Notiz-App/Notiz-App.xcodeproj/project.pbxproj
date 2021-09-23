@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED606E8E26FC555700821A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED606E8D26FC555700821A5D /* AppDelegate.swift */; };
+		ED606E9026FC555700821A5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED606E8F26FC555700821A5D /* SceneDelegate.swift */; };
+		ED606E9226FC555700821A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED606E9126FC555700821A5D /* ViewController.swift */; };
+		ED606E9526FC555700821A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED606E9326FC555700821A5D /* Main.storyboard */; };
+		ED606E9726FC555800821A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED606E9626FC555800821A5D /* Assets.xcassets */; };
+		ED606E9A26FC555800821A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED606E9826FC555800821A5D /* LaunchScreen.storyboard */; };
+		ED606EA526FC555900821A5D /* Notiz_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED606EA426FC555900821A5D /* Notiz_AppTests.swift */; };
+		ED606EB026FC555900821A5D /* Notiz_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED606EAF26FC555900821A5D /* Notiz_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED606EA126FC555900821A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED606E8226FC555700821A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED606E8926FC555700821A5D;
+			remoteInfo = "Notiz-App";
+		};
+		ED606EAC26FC555900821A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED606E8226FC555700821A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED606E8926FC555700821A5D;
+			remoteInfo = "Notiz-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED606E8A26FC555700821A5D /* Notiz-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notiz-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED606E8D26FC555700821A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED606E8F26FC555700821A5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED606E9126FC555700821A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED606E9426FC555700821A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED606E9626FC555800821A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED606E9926FC555800821A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED606E9B26FC555900821A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED606EA026FC555900821A5D /* Notiz-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notiz-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED606EA426FC555900821A5D /* Notiz_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notiz_AppTests.swift; sourceTree = "<group>"; };
+		ED606EA626FC555900821A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED606EAB26FC555900821A5D /* Notiz-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notiz-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED606EAF26FC555900821A5D /* Notiz_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notiz_AppUITests.swift; sourceTree = "<group>"; };
+		ED606EB126FC555900821A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED606E8726FC555700821A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED606E9D26FC555900821A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED606EA826FC555900821A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED606E8126FC555700821A5D = {
+			isa = PBXGroup;
+			children = (
+				ED606E8C26FC555700821A5D /* Notiz-App */,
+				ED606EA326FC555900821A5D /* Notiz-AppTests */,
+				ED606EAE26FC555900821A5D /* Notiz-AppUITests */,
+				ED606E8B26FC555700821A5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED606E8B26FC555700821A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED606E8A26FC555700821A5D /* Notiz-App.app */,
+				ED606EA026FC555900821A5D /* Notiz-AppTests.xctest */,
+				ED606EAB26FC555900821A5D /* Notiz-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED606E8C26FC555700821A5D /* Notiz-App */ = {
+			isa = PBXGroup;
+			children = (
+				ED606E8D26FC555700821A5D /* AppDelegate.swift */,
+				ED606E8F26FC555700821A5D /* SceneDelegate.swift */,
+				ED606E9126FC555700821A5D /* ViewController.swift */,
+				ED606E9326FC555700821A5D /* Main.storyboard */,
+				ED606E9626FC555800821A5D /* Assets.xcassets */,
+				ED606E9826FC555800821A5D /* LaunchScreen.storyboard */,
+				ED606E9B26FC555900821A5D /* Info.plist */,
+			);
+			path = "Notiz-App";
+			sourceTree = "<group>";
+		};
+		ED606EA326FC555900821A5D /* Notiz-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED606EA426FC555900821A5D /* Notiz_AppTests.swift */,
+				ED606EA626FC555900821A5D /* Info.plist */,
+			);
+			path = "Notiz-AppTests";
+			sourceTree = "<group>";
+		};
+		ED606EAE26FC555900821A5D /* Notiz-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED606EAF26FC555900821A5D /* Notiz_AppUITests.swift */,
+				ED606EB126FC555900821A5D /* Info.plist */,
+			);
+			path = "Notiz-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED606E8926FC555700821A5D /* Notiz-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED606EB426FC555900821A5D /* Build configuration list for PBXNativeTarget "Notiz-App" */;
+			buildPhases = (
+				ED606E8626FC555700821A5D /* Sources */,
+				ED606E8726FC555700821A5D /* Frameworks */,
+				ED606E8826FC555700821A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notiz-App";
+			productName = "Notiz-App";
+			productReference = ED606E8A26FC555700821A5D /* Notiz-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED606E9F26FC555900821A5D /* Notiz-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED606EB726FC555900821A5D /* Build configuration list for PBXNativeTarget "Notiz-AppTests" */;
+			buildPhases = (
+				ED606E9C26FC555900821A5D /* Sources */,
+				ED606E9D26FC555900821A5D /* Frameworks */,
+				ED606E9E26FC555900821A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED606EA226FC555900821A5D /* PBXTargetDependency */,
+			);
+			name = "Notiz-AppTests";
+			productName = "Notiz-AppTests";
+			productReference = ED606EA026FC555900821A5D /* Notiz-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED606EAA26FC555900821A5D /* Notiz-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED606EBA26FC555900821A5D /* Build configuration list for PBXNativeTarget "Notiz-AppUITests" */;
+			buildPhases = (
+				ED606EA726FC555900821A5D /* Sources */,
+				ED606EA826FC555900821A5D /* Frameworks */,
+				ED606EA926FC555900821A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED606EAD26FC555900821A5D /* PBXTargetDependency */,
+			);
+			name = "Notiz-AppUITests";
+			productName = "Notiz-AppUITests";
+			productReference = ED606EAB26FC555900821A5D /* Notiz-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED606E8226FC555700821A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED606E8926FC555700821A5D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					ED606E9F26FC555900821A5D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = ED606E8926FC555700821A5D;
+					};
+					ED606EAA26FC555900821A5D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = ED606E8926FC555700821A5D;
+					};
+				};
+			};
+			buildConfigurationList = ED606E8526FC555700821A5D /* Build configuration list for PBXProject "Notiz-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED606E8126FC555700821A5D;
+			productRefGroup = ED606E8B26FC555700821A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED606E8926FC555700821A5D /* Notiz-App */,
+				ED606E9F26FC555900821A5D /* Notiz-AppTests */,
+				ED606EAA26FC555900821A5D /* Notiz-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED606E8826FC555700821A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED606E9A26FC555800821A5D /* LaunchScreen.storyboard in Resources */,
+				ED606E9726FC555800821A5D /* Assets.xcassets in Resources */,
+				ED606E9526FC555700821A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED606E9E26FC555900821A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED606EA926FC555900821A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED606E8626FC555700821A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED606E9226FC555700821A5D /* ViewController.swift in Sources */,
+				ED606E8E26FC555700821A5D /* AppDelegate.swift in Sources */,
+				ED606E9026FC555700821A5D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED606E9C26FC555900821A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED606EA526FC555900821A5D /* Notiz_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED606EA726FC555900821A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED606EB026FC555900821A5D /* Notiz_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED606EA226FC555900821A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED606E8926FC555700821A5D /* Notiz-App */;
+			targetProxy = ED606EA126FC555900821A5D /* PBXContainerItemProxy */;
+		};
+		ED606EAD26FC555900821A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED606E8926FC555700821A5D /* Notiz-App */;
+			targetProxy = ED606EAC26FC555900821A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED606E9326FC555700821A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED606E9426FC555700821A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED606E9826FC555800821A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED606E9926FC555800821A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED606EB226FC555900821A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED606EB326FC555900821A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED606EB526FC555900821A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notiz-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandra-Soglassova.Notiz-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED606EB626FC555900821A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notiz-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandra-Soglassova.Notiz-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED606EB826FC555900821A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notiz-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandra-Soglassova.Notiz-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notiz-App.app/Notiz-App";
+			};
+			name = Debug;
+		};
+		ED606EB926FC555900821A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notiz-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandra-Soglassova.Notiz-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notiz-App.app/Notiz-App";
+			};
+			name = Release;
+		};
+		ED606EBB26FC555900821A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notiz-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandra-Soglassova.Notiz-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Notiz-App";
+			};
+			name = Debug;
+		};
+		ED606EBC26FC555900821A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Notiz-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandra-Soglassova.Notiz-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Notiz-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED606E8526FC555700821A5D /* Build configuration list for PBXProject "Notiz-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED606EB226FC555900821A5D /* Debug */,
+				ED606EB326FC555900821A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED606EB426FC555900821A5D /* Build configuration list for PBXNativeTarget "Notiz-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED606EB526FC555900821A5D /* Debug */,
+				ED606EB626FC555900821A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED606EB726FC555900821A5D /* Build configuration list for PBXNativeTarget "Notiz-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED606EB826FC555900821A5D /* Debug */,
+				ED606EB926FC555900821A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED606EBA26FC555900821A5D /* Build configuration list for PBXNativeTarget "Notiz-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED606EBB26FC555900821A5D /* Debug */,
+				ED606EBC26FC555900821A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED606E8226FC555700821A5D /* Project object */;
+}
